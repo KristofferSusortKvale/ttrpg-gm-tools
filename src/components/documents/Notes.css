@@ -1,0 +1,30 @@
+.Notes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-top: 10px;
+}
+
+.Notes > * {
+  margin-left: 10px;
+  max-width: 45%;
+}
+
+.NotesControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 10px;
+}
+
+.NotesControls > * {
+  margin-top: 10px;
+}
+
+.Control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

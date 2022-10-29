@@ -1,0 +1,7 @@
+.Watch {
+  background-color: var(--primary);
+  color: var(--gold);
+
+  width: 100%;
+  padding: 10px;
+}

@@ -1,0 +1,13 @@
+.DiceVisual {
+  color: var(--primary);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DiceVisual > Image {
+  width: 128px;
+  height: 128px;
+}

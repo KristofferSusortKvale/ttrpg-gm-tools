@@ -1,0 +1,59 @@
+.DicePoolVisual {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.DiceList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.AddDiceList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.AddDiceList > * {
+  margin-top: 10px;
+}
+
+.ButtonDiv {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.TotalDiv {
+  min-width: 75px;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.ButtonDiv > * {
+  margin-top: 10px;
+}
+
+.Dice {
+  min-width: 20%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.SmallLogo {
+  width: 64px;
+  height: 64px;
+}

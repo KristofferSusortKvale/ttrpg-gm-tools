@@ -1,0 +1,44 @@
+.WatchWrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WatchContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Controls > * {
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.Watches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.WatchAlert {
+  width: 18%;
+  min-width: 115px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+}
