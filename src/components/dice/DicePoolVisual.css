@@ -38,6 +38,7 @@
 }
 
 .TotalDiv {
+  color: white;
   min-width: 75px;
   align-self: flex-end;
   margin-top: 10px;
